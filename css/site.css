@@ -1,0 +1,108 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 16px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1557381220-6520b269bc4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-main {
+    flex-grow: 1;
+    background-color: rgba(222, 249, 253, 0.384);
+    color: rgb(70, 70, 70);
+    width: 50em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    background-color: #5994cc;
+    height: 5em;
+    padding: 0 3em;
+}
+
+.site-header img {
+    width: 6em;
+    height: auto;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #e3ebff;
+}
+
+.site-title {
+    font-size: 2em;
+}
+
+.site-nav {
+    margin-left: auto;
+}
+
+.site-nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5994cc;
+    height: 4.5em;
+    padding: 0 3em;
+    color: #e3ebff;
+    font-size: 0.9em;
+}
+
+.description {
+    font-style: italic;
+}
+
+.contacts span {
+    display: block;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #e3ebff;
+}
+
+.fa-github {
+    margin-right: 0.5em;
+}
+
+.site-main ul li a {
+    color: black;
+}
+
+.site-main ul li {
+    display: block;
+}
+
+.site-main h2 {
+    padding-bottom: 0.3em;
+}
+ 
+.site-main p {
+    padding-bottom: 0.5em;
+}
